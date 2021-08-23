@@ -20,7 +20,7 @@ public class ConsulServer2Application {
 	}
 
 	@GetMapping("/consul/server/port")
-	public String version(){
+	public String getPort(){
 		return String.format("服务端口{%s}", port);
 	}
 
